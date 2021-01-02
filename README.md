@@ -24,7 +24,7 @@ Serial Parallel Interface (SPI)
 -------------------------------
 This design realises the conversion of serial SPI communication to a parallel access register content to the following PWM controller. This component acts as slave. It consists of 17 cycles, first two indicate the address to which data needs to be sent, third indicates read/write access and remaining 14 cycles are actual data which is transferred to the register selected in the first 2 bits.
 
-A finite state machine is designed with the states for start of new cycle, to fetch data, write data to output and end SPI operation. These states are clocked with the main system clock(100MHz). The access to the SPI interface is synchronized with the SPI clock(5 MHz). To check the functionality a testbench is also implemented.
+A finite state machine is designed with the states for start of new cycle, to fetch data, write data to output and end SPI operation. These states are clocked with the main system clock(100MHz). The access to the SPI interface is synchronized with the SPI clock(5 MHz). 
 
 PWM controller
 --------------
