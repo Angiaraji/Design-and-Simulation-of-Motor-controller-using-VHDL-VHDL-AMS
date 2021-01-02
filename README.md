@@ -59,7 +59,7 @@ The switching logic for the DRV 8837 is as below
 
 ![](switching_logic.jpg)
 
-Finally, both the analog and digital part of the design is integrated into the top level design of motor controller and the functionality is tested using testbench.
+Finally, both the analog and digital part of the design is integrated into the top level design of motor controller.
 
 
 
