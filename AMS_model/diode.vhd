@@ -11,7 +11,7 @@ ENTITY diode_E IS
 
 END diode_E;
 
--- Architecture to be added by the students
+
 architecture ideal of diode_E is
 
 quantity u_d across i_d through anode to cathode;
