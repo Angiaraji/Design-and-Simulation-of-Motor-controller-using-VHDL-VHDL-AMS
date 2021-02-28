@@ -36,10 +36,11 @@ This design consists of the design of PWM driver that gets value from the PWM co
 
 The ouput of the PWM driver is controlled by the input from the PWM controller where 
 
-bit position	operation	output
-0		enable		1- enable output, 0- disable output
-1		motor direction	1- inverted output, 0- same behaviour
-2		brake		1- brake, 0- normal operation
+bit position |	operation	| output
+-------------|------------------|-----------------------------------------
+0	     |	enable		| 1- enable output, 0- disable output
+1	     |	motor direction	| 1- inverted output, 0- same behaviour
+2	     |	brake		| 1- brake, 0- normal operation
 
 Finally a top level design connects the SPI, PWM controller and PWM driver completes the PWM generator design. 
 
